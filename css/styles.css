@@ -59,7 +59,7 @@ table{border-collapse:collapse;border-spacing:0;}
 
 
 /*---------- GENERAL STYLES ----------*/
-h1, h2, h3{font-family:Arial, sans-serif;font-weight:normal;line-height:27px;color:#c5093b;}
+h1, h2, h3{font-family:'NeoSans-Light', Arial, sans-serif;font-weight:normal;line-height:27px;color:#fff;}
 h1{line-height:34px;font-size:28px;}
 p{margin-bottom:30px;line-height:24px;}
 a{text-decoration:none;color:#c60e3b;
@@ -172,4 +172,9 @@ body{font-family:'NeoSans-Light', Arial, sans-serif;font-size:17px;color:#fff;ba
 #banner{position:relative;}
 #banner .cta{bottom:50px;right:50px;}
 
-.shots-banner{ height:500px; }
+.shots-banner{position:relative;background-color:#D86304;}
+.shots-banner img{height:auto; width:50%;}
+.shots-banner .text-wrapper{position:absolute;top:30%;right:50px;text-align:right;}
+.shots-banner .text-wrapper h2{text-transform:uppercase;font-size:88px; line-height:90px;}
+.shots-banner .text-wrapper p{ font-size:44px; line-height:60px;}
+.shots-banner .text-wrapper .cta{right:0;}
