@@ -195,3 +195,22 @@ body{font-family:'NeoSans-Light', Arial, sans-serif;font-size:17px;color:#fff;ba
 /*----- Banner Sep -----*/
 .banner-sep{height:179px;background:url(../images/yellow-bg.png) center top repeat-x #FFB40F;}
 .banner-sep h2{font-family:Arial, sans-serif;text-align:center;font-weight:bold;font-size:58px;text-transform:uppercase;line-height:179px;}
+
+
+/*---------- FOOTER ----------*/
+#footer{background-color:#fff;padding:48px 50px 62px 50px;}
+#footer .social{font-size:0;text-align:center;}
+#footer .social li{margin:0 15px;display:inline-block;*display:inline;zoom:1;vertical-align:top;}
+#footer .social li a{display:block;
+	zoom: 1;
+	filter: alpha(opacity=50);
+	opacity: 0.5;
+}
+
+#footer .social li a:hover{
+	filter: alpha(opacity=100);
+	opacity: 1;
+}
+
+#footer .copyright{font-size:32px;font-family:Arial, sans-serif;text-align:center;font-weight:bold;color:#848484;text-transform:uppercase;
+	margin-top:25px;}
