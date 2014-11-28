@@ -148,7 +148,7 @@ body{font-family:'NeoSans-Light', Arial, sans-serif;font-size:17px;color:#fff;ba
 /*--- Top Wrapper ---*/
 #top-wrapper{background-color:#fff;position:relative;padding:34px 0 34px 0;}
 #top-wrapper.stuck{position:fixed;top:0;z-index:2000;width:100%;}
-#top-wrapper .logo{width:179px;float:left;margin-left:95px;}
+#top-wrapper .logo{width:179px;float:left;margin-left:50px;}
 
 
 /*----- MENU -----*/
@@ -174,7 +174,24 @@ body{font-family:'NeoSans-Light', Arial, sans-serif;font-size:17px;color:#fff;ba
 
 .shots-banner{position:relative;background-color:#D86304;}
 .shots-banner img{height:auto;width:45%;}
-.shots-banner .text-wrapper{position:absolute;top:30%;right:50px;text-align:right;}
-.shots-banner .text-wrapper h2{text-transform:uppercase;font-size:88px; line-height:90px;}
+.shots-banner .text-wrapper{position:absolute;top:25%;right:50px;text-align:right;}
+.shots-banner .text-wrapper h2{text-transform:uppercase;font-size:88px;line-height:90px;}
 .shots-banner .text-wrapper p{font-size:44px;line-height:60px;}
 .shots-banner .text-wrapper .cta{right:0;}
+
+.music-banner{position:relative;background:url(../images/music-bg.png) right top no-repeat #1FC1B0;height:70%;}
+.music-banner img{height:auto;width:50%;position:absolute;left:0;bottom:-120px;z-index:99;}
+.music-banner .text-wrapper{position:absolute;top:30%;right:50px;text-align:right;width:600px;}
+.music-banner .text-wrapper h2{text-transform:uppercase;font-size:88px;line-height:90px;}
+.music-banner .text-wrapper .cta{right:0; margin-top:20px;}
+
+.space-banner{position:relative;background-color:#D20B2D;padding-top:164px;}
+.space-banner img{height:auto;width:40%;float:right;margin-right:50px;}
+.space-banner .text-wrapper{position:absolute;bottom:25%;left:50px;width:600px;}
+.space-banner .text-wrapper h2{text-transform:uppercase;font-size:88px;line-height:90px; margin-bottom:15px;}
+.space-banner .text-wrapper p{font-size:22px;line-height:30px;text-transform:uppercase;font-family:Arial, sans-serif;font-weight:bold;}
+.space-banner .text-wrapper .cta{left:0;}
+
+/*----- Banner Sep -----*/
+.banner-sep{height:179px;background:url(../images/yellow-bg.png) center top repeat-x #FFB40F;}
+.banner-sep h2{font-family:Arial, sans-serif;text-align:center;font-weight:bold;font-size:58px;text-transform:uppercase;line-height:179px;}
