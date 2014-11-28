@@ -170,7 +170,9 @@ body{font-family:'NeoSans-Light', Arial, sans-serif;font-size:17px;color:#fff;ba
 
 /*----- BANNERS -----*/
 #banner{position:relative;}
-#banner .cta{bottom:50px;right:50px;}
+#banner .text-wrapper{position:absolute;bottom:25%;right:50px;text-align:right; width:650px;}
+#banner .text-wrapper p{font-family:'NeoSans-BoldItalic', Arial, sans-serif;font-size:40px;line-height:48px;color:#fff;}
+#banner .text-wrapper .cta{right:0;}
 
 .shots-banner{position:relative;background-color:#D86304;}
 .shots-banner img{height:auto;width:45%;}
