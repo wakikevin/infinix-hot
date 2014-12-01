@@ -68,6 +68,19 @@ table{border-collapse:collapse;border-spacing:0;}
 	font-style: normal;
 }
 
+@font-face {
+    font-family: 'ds-digitalitalic';
+    src: url('fonts/ds-digii-webfont.eot');
+    src: url('fonts/ds-digii-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/ds-digii-webfont.woff2') format('woff2'),
+         url('fonts/ds-digii-webfont.woff') format('woff'),
+         url('fonts/ds-digii-webfont.ttf') format('truetype'),
+         url('fonts/ds-digii-webfont.svg#ds-digitalitalic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
 
 /*---------- GENERAL STYLES ----------*/
 h1, h2, h3{font-family:'NeoSans-Light', Arial, sans-serif;font-weight:normal;line-height:27px;color:#fff;}
@@ -241,6 +254,25 @@ body{font-family:'NeoSans-Light', Arial, sans-serif;font-size:17px;color:#fff;ba
 .colours-banner .text-wrapper p{font-size:40px;line-height:46px;font-family:'NeoSans-BoldItalic', Arial, sans-serif;color:#000;
 	margin:0 0 20px 50px;text-transform:uppercase;}
 .colours-banner .text-wrapper .cta{left:50px;}
+
+.order-banner{position:relative;background:url(../images/order-bg.png) right top no-repeat #000;height:100%;}
+.order-banner .phone{height:auto;width:18%;position:absolute;left:50px;top:12%;}
+.order-banner .text-wrapper{position:absolute;top:10%;right:50px;width:70%;}
+.order-banner .text-wrapper h2{text-transform:uppercase;font-size:150px;line-height:150px;
+	font-family:'ds-digitalitalic', Arial, sans-serif;}
+.order-banner .text-wrapper p{font-size:60px;line-height:65px;font-family:'NeoSans-UltraItalic', Arial, sans-serif;color:#fff;
+	margin:0;text-transform:uppercase;}
+.order-banner .btns-wrapper{font-size:0;margin-top:40px;width:720px;}
+.order-banner .btns-wrapper a{display:inline-block;*display:inline;zoom:1;vertical-align:top;}
+.order-banner .btns-wrapper a.disabled{cursor:default;
+	zoom: 1;
+	filter: alpha(opacity=20);
+	opacity: 0.2;
+}
+.order-banner .social-wrapper{text-align:right;display:block;font-size:0; margin-top:40px;}
+.order-banner .social-wrapper li{display:inline-block;*display:inline;zoom:1;vertical-align:top;margin-left:25px;}
+.order-banner .social-wrapper li:first-child{margin-left:0;}
+.order-banner .social-wrapper li a{display:block;width:104px;}
 
 /*----- Banner Sep -----*/
 .banner-sep{height:179px;background:url(../images/yellow-bg.png) center top repeat-x #FFB40F;}
