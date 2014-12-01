@@ -278,7 +278,7 @@ body{font-family:'NeoSans-Light', Arial, sans-serif;font-size:17px;color:#fff;ba
 .banner-sep{height:179px;background:url(../images/yellow-bg.png) center top repeat-x #FFB40F;}
 .banner-sep h2{font-family:Arial, sans-serif;text-align:center;font-weight:bold;font-size:58px;text-transform:uppercase;line-height:179px;}
 
-/*----- Specs -----*/
+/*----- Specs Strip -----*/
 .specs-wrapper{background-color:#F2F1EE;padding:48px 26px;}
 .specs-wrapper-inner{border:6px solid #94D60A;padding:36px 24px;
 	-webkit-border-radius:20px;
@@ -290,6 +290,23 @@ body{font-family:'NeoSans-Light', Arial, sans-serif;font-size:17px;color:#fff;ba
 .specs li{display:inline-block;*display:inline;zoom:1;vertical-align:top;}
 .specs li .icon{width:86px;}
 .specs li.sep{width:5%;height:87px;background:url(../images/specs/sep.png) center center no-repeat;}
+
+/*---- Specifications Detailed -----*/ 
+.specifications-wrapper{background-color:#f4f3f4;padding:50px;}
+.specifications-wrapper h2{font-family:Arial, sans-serif;color:#444;text-transform:uppercase;font-size:58px;line-height:58px;}
+.specifications-wrapper .cols-wrapper{padding:50px 0 0 0;}
+.specifications-wrapper .cols-wrapper .col-left{float:left; width:55%;}
+.specifications-wrapper .cols-wrapper .col-right{float:right;width:40%;}
+.specifications-wrapper .table-left{float:left;width:45%;}
+.specifications-wrapper .table-right{float:right;width:45%;}
+.specifications-wrapper table{font-family:Arial, sans-serif;width:100%;}
+.specifications-wrapper table td{padding:10px;background-color:#bcbdc0;border:2px solid #fff;font-size:14px;line-height:18px;
+	vertical-align:middle;}
+.specifications-wrapper table .heading{font-weight:bold;background-color:#94d60a;font-size:18px;}
+.specifications-wrapper table .heading_sm{font-weight:bold;background-color:#94d60a;font-size:14px;}
+.specifications-wrapper table .spacer{background-color:transparent;border:0 none;padding:20px;}
+.specifications-wrapper .tech-wrapper{margin-top:40px;}
+
 
 /*---------- FOOTER ----------*/
 #footer{background-color:#fff;padding:48px 50px 62px 50px;}
