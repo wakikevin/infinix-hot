@@ -170,14 +170,14 @@ body{font-family:'NeoSans-Light', Arial, sans-serif;font-size:17px;color:#fff;ba
 #main-wrapper{transition:all 0.4s ease-in-out 0s;position:relative;background-color:#fff;}
 
 /*--- Top Wrapper ---*/
-#top-wrapper{background-color:#fff;position:relative;padding:34px 0 34px 0;}
+#top-wrapper{background-color:#fff;position:relative;padding:27px 0;}
 #top-wrapper.stuck{position:fixed;top:0;z-index:2000;width:100%;}
 #top-wrapper .logo{width:179px;float:left;margin-left:50px;}
 
 
 /*----- MENU -----*/
 #menu-wrapper{float:right;padding-right:34px;}
-#main-menu{font-size:0;text-align:right;margin:14px 0 0 0;display:inline-block;*display:inline;zoom:1;vertical-align:top;}
+#main-menu{font-size:0;text-align:right;margin:12px 0 0 0;display:inline-block;*display:inline;zoom:1;vertical-align:top;}
 #main-menu > li{display:inline-block;*display:inline;zoom:1;vertical-align:top;margin:0 20px;}
 #main-menu > li a{font-family:'NeoSans-BoldItalic', Arial, sans-serif;font-size:20px;color:#444;text-transform:uppercase;}
 #main-menu > li.active a,
@@ -237,7 +237,7 @@ body{font-family:'NeoSans-Light', Arial, sans-serif;font-size:17px;color:#fff;ba
 .processor-banner .text-wrapper h2{font-size:140px;line-height:140px;margin-bottom:20px;color:#fff;
 	font-family:'NeoSans-UltraItalic', Arial, sans-serif;text-shadow: 4px 9px 10px rgba(50, 50, 50, 1);}
 .processor-banner .text-wrapper h2 span{font-size:100px;}
-.processor-banner .text-wrapper h3{text-transform:uppercase;font-size:50px;line-height:50px;margin-bottom:20px;color:#b50904;
+.processor-banner .text-wrapper h3{text-transform:uppercase;font-size:50px;line-height:50px;margin-bottom:20px;color:#13212E;
 	font-family:'NeoSans-UltraItalic', Arial, sans-serif;}
 .processor-banner .text-wrapper p{font-size:26px;line-height:30px;font-family:'NeoSans-BoldItalic', Arial, sans-serif;}
 .processor-banner .text-wrapper .cta{right:0;}
@@ -263,21 +263,21 @@ body{font-family:'NeoSans-Light', Arial, sans-serif;font-size:17px;color:#fff;ba
 	font-family:'ds-digitalitalic', Arial, sans-serif;}
 .order-banner .text-wrapper p{font-size:60px;line-height:65px;font-family:'NeoSans-UltraItalic', Arial, sans-serif;color:#fff;
 	margin:0;text-transform:uppercase;}
-.order-banner .btns-wrapper{font-size:0;margin-top:40px;width:720px;}
-.order-banner .btns-wrapper a{display:inline-block;*display:inline;zoom:1;vertical-align:top;}
+.order-banner .btns-wrapper{font-size:0;margin-top:40px;width:374px;}
+.order-banner .btns-wrapper a{display:inline-block;*display:inline;zoom:1;vertical-align:top;width:185px;}
 .order-banner .btns-wrapper a.disabled{cursor:default;
 	zoom: 1;
 	filter: alpha(opacity=20);
 	opacity: 0.2;
 }
-.order-banner .social-wrapper{text-align:right;display:block;font-size:0; margin-top:40px;}
-.order-banner .social-wrapper li{display:inline-block;*display:inline;zoom:1;vertical-align:top;margin-left:25px;}
+.order-banner .social-wrapper{display:block;font-size:0; margin-top:40px;}
+.order-banner .social-wrapper li{display:inline-block;*display:inline;zoom:1;vertical-align:top;margin-left:10px;}
 .order-banner .social-wrapper li:first-child{margin-left:0;}
-.order-banner .social-wrapper li a{display:block;width:104px;}
+.order-banner .social-wrapper li a{display:block;width:47px;}
 
 /*----- Banner Sep -----*/
-.banner-sep{height:179px;background:url(../images/yellow-bg.png) center top repeat-x #FFB40F;}
-.banner-sep h2{font-family:Arial, sans-serif;text-align:center;font-weight:bold;font-size:58px;text-transform:uppercase;line-height:179px;}
+.banner-sep{height:99px;background:url(../images/yellow-bg.png) center top repeat-x #FFB40F;}
+.banner-sep h2{font-family:'NeoSans-Light', Arial, sans-serif;text-align:center;font-weight:bold;font-size:40px;text-transform:uppercase;line-height:99px;}
 
 /*----- Specs Strip -----*/
 .specs-wrapper{background-color:#F2F1EE;padding:48px 26px;}
@@ -301,10 +301,10 @@ body{font-family:'NeoSans-Light', Arial, sans-serif;font-size:17px;color:#fff;ba
 .specifications-wrapper .table-left{float:left;width:45%;}
 .specifications-wrapper .table-right{float:right;width:45%;}
 .specifications-wrapper table{font-family:Arial, sans-serif;width:100%;}
-.specifications-wrapper table td{padding:10px;background-color:#bcbdc0;border:2px solid #fff;font-size:14px;line-height:18px;
-	vertical-align:middle;}
-.specifications-wrapper table .heading{font-weight:bold;background-color:#94d60a;font-size:18px;}
-.specifications-wrapper table .heading_sm{font-weight:bold;background-color:#94d60a;font-size:14px;}
+.specifications-wrapper table td{padding:10px;background-color:#E0E1E2;border:2px solid #fff;font-size:14px;line-height:18px;
+	vertical-align:middle;color:#444;}
+.specifications-wrapper table .heading{font-weight:bold;background-color:#08BE95;color:#fff;font-size:18px;}
+.specifications-wrapper table .heading_sm{font-weight:bold;background-color:#08BE95;color:#fff;font-size:14px;}
 .specifications-wrapper table .spacer{background-color:transparent;border:0 none;padding:20px;}
 .specifications-wrapper .tech-wrapper{margin-top:40px;}
 
@@ -317,10 +317,10 @@ body{font-family:'NeoSans-Light', Arial, sans-serif;font-size:17px;color:#fff;ba
 
 
 /*---------- FOOTER ----------*/
-#footer{background-color:#fff;padding:48px 50px 62px 50px;}
+#footer{background-color:#fff;padding:30px 50px;}
 #footer .social{font-size:0;text-align:center;}
-#footer .social li{margin:0 15px;display:inline-block;*display:inline;zoom:1;vertical-align:top;}
-#footer .social li a{display:block;
+#footer .social li{margin:0 8px;display:inline-block;*display:inline;zoom:1;vertical-align:top;}
+#footer .social li a{display:block;width:24px;
 	zoom: 1;
 	filter: alpha(opacity=50);
 	opacity: 0.5;
@@ -331,5 +331,5 @@ body{font-family:'NeoSans-Light', Arial, sans-serif;font-size:17px;color:#fff;ba
 	opacity: 1;
 }
 
-#footer .copyright{font-size:32px;font-family:Arial, sans-serif;text-align:center;font-weight:bold;color:#848484;text-transform:uppercase;
+#footer .copyright{font-size:18px;font-family:Arial, sans-serif;text-align:center;font-weight:bold;color:#848484;text-transform:uppercase;
 	margin-top:25px;}
