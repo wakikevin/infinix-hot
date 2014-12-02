@@ -223,7 +223,7 @@ body{font-family:'NeoSans-Light', Arial, sans-serif;font-size:17px;color:#fff;ba
 .power-banner .text-wrapper h2{text-transform:uppercase;font-size:79px;line-height:90px;margin-bottom:15px;color:#b70000;
 	font-family:'NeoSans-UltraItalic', Arial, sans-serif;}
 .power-banner .text-wrapper p{font-size:22px;line-height:30px;text-transform:uppercase;
-	font-family:'NeoSans-Light', Arial, sans-serif; font-style:italic;}
+	font-family:'NeoSans-BoldItalic', Arial, sans-serif;}
 
 .music-player-banner{position:relative;background-color:#AC9B9C;}
 .music-player-banner .text-wrapper{position:absolute;top:25%;left:50px;width:650px;}
