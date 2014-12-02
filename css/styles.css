@@ -154,6 +154,25 @@ img{max-width:100%;width:100%;padding:0;margin:0;border:none;display:block;}
   }
 }
 
+/* Messages */
+.message{font-size:14px;padding:15px;margin-bottom:15px;border:1px solid;}
+.message.success{background:#CBFFCB;border-color:#254925;color:#254925;}
+.message.notice{background: #93C7FF;border-color: #000055;color:#000055;}
+.message.warning{background: #FFC738;border-color: #5C4C1A;color:#5C4C1A;}
+.message.error{background: #FFA9A9;border-color:#B90000;color:#B90000;}
+
+/* Button */
+.btn{height:39px;line-height:39px;color:#fff;padding:0 10px;min-width:100px;background-color:#b70000;border:0 none;margin:0;
+	display:inline-block;*display:inline;zoom:1;vertical-align:top;cursor:pointer;font-size:16px;
+	font-family:'NeoSans-BoldItalic', Arial, sans-serif;
+	-webkit-transition: all 0.5s linear;
+  -moz-transition: all 0.5s linear;
+  -o-transition: all 0.5s linear;
+  -ms-transition: all 0.5s linear;
+  transition: all 0.5s linear;
+}
+.btn:hover{color:#fff;background-color:#444;}
+
 /*---------- BUTTON CTA ----------*/
 .cta{display:block;position:absolute;height:48px;line-height:48px;font-family:'NeoSans-Ultra', Arial, sans-serif;color:#000;
 	text-transform:uppercase;font-size:32px;background-color:#fff;padding:6px 20px;
@@ -191,6 +210,22 @@ body{font-family:'NeoSans-Light', Arial, sans-serif;font-size:17px;color:#fff;ba
 .search-wrapper .btn-search{display:block;width:30px;height:30px;border:0 none;float:left;padding:0;margin:0;cursor:pointer;
 	background-image:url(../images/search.png);background-position:right 7px;background-repeat:no-repeat;background-color:transparent;
 }
+
+/*----- FORM -----*/
+form .fieldset .field{margin-top:15px;overflow:hidden;}
+form .fieldset .field:first-child{margin-top:0;}
+form .fieldset .field .inline{width:48%;}
+form .fieldset .field label{color:#fff;font-weight:bold;}
+form .fieldset .field input[type="text"],
+form .fieldset .field textarea{background-color:#fff;font-family:Arial, sans-serif;color:#444;padding:10px;
+	border:1px solid #fff;resize:none;display:block;margin-top:5px;font-size:14px;width:100%;
+	box-sizing:border-box;
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+}
+form .fieldset .field textarea{height:100px;overflow:auto;}
+form .fieldset .field input[type="text"]:focus,
+form .fieldset .field textarea:focus{border-color:#616161;}
 
 /*----- BANNERS -----*/
 #banner{position:relative;}
@@ -241,6 +276,9 @@ body{font-family:'NeoSans-Light', Arial, sans-serif;font-size:17px;color:#fff;ba
 	font-family:'NeoSans-UltraItalic', Arial, sans-serif;}
 .processor-banner .text-wrapper p{font-size:26px;line-height:30px;font-family:'NeoSans-BoldItalic', Arial, sans-serif;}
 .processor-banner .text-wrapper .cta{right:0;}
+.processor-banner .form-wrapper{position:absolute;top:10%;right:10%;width:430px;}
+.processor-banner .form-wrapper h2{text-transform:uppercase;font-size:50px;line-height:50px;margin-bottom:20px;color:#fff;
+	font-family:'NeoSans-UltraItalic', Arial, sans-serif;}
 
 .camera-banner{position:relative;background-color:#5ABA47;}
 .camera-banner .text-wrapper{position:absolute;bottom:25px;text-align:center;width:100%;}
