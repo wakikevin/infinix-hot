@@ -307,6 +307,13 @@ body{font-family:'NeoSans-Light', Arial, sans-serif;font-size:17px;color:#fff;ba
 .specifications-wrapper table .spacer{background-color:transparent;border:0 none;padding:20px;}
 .specifications-wrapper .tech-wrapper{margin-top:40px;}
 
+/*----- Gallery -----*/
+.gallery{font-size:0;}
+.gallery li{width:25%;display:inline-block;*display:inline;zoom:1;vertical-align:top;border:1px solid #000;box-sizing:border-box;
+	-moz-box-sizing:border-box;-webkit-box-sizing:border-box;}
+.gallery li a{display:block;background:url(../images/loading.gif) center center no-repeat #fff;min-height:200px;
+	position:relative;cursor:zoom-in;}
+
 
 /*---------- FOOTER ----------*/
 #footer{background-color:#fff;padding:48px 50px 62px 50px;}
