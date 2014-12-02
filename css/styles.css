@@ -156,7 +156,7 @@ img{max-width:100%;width:100%;padding:0;margin:0;border:none;display:block;}
 
 /*---------- BUTTON CTA ----------*/
 .cta{display:block;position:absolute;height:48px;line-height:48px;font-family:'NeoSans-Ultra', Arial, sans-serif;color:#000;
-	text-transform:uppercase;font-size:59px;background-color:#fff;padding:20px;
+	text-transform:uppercase;font-size:32px;background-color:#fff;padding:6px 20px;
 	-webkit-border-radius:20px;
 	-moz-border-radius:20px;
 	border-radius:20px;
@@ -222,7 +222,8 @@ body{font-family:'NeoSans-Light', Arial, sans-serif;font-size:17px;color:#fff;ba
 .power-banner .text-wrapper{position:absolute;top:25%;left:50px;width:600px;}
 .power-banner .text-wrapper h2{text-transform:uppercase;font-size:79px;line-height:90px;margin-bottom:15px;color:#b70000;
 	font-family:'NeoSans-UltraItalic', Arial, sans-serif;}
-.power-banner .text-wrapper p{font-size:22px;line-height:30px;text-transform:uppercase;font-family:Arial, sans-serif;font-weight:bold;}
+.power-banner .text-wrapper p{font-size:22px;line-height:30px;text-transform:uppercase;
+	font-family:'NeoSans-Light', Arial, sans-serif; font-style:italic;}
 
 .music-player-banner{position:relative;background-color:#AC9B9C;}
 .music-player-banner .text-wrapper{position:absolute;top:25%;left:50px;width:650px;}
