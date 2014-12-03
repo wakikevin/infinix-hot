@@ -175,7 +175,7 @@ img{max-width:100%;width:100%;padding:0;margin:0;border:none;display:block;}
 
 /*---------- BUTTON CTA ----------*/
 .cta{display:block;position:absolute;height:32px;font-family:'NeoSans-BoldItalic', Arial, sans-serif;color:#3b5c88;
-	text-transform:uppercase;font-size:28px;background-color:#fff;padding:9px 15px;
+	text-transform:uppercase;font-size:28px;background-color:#fff;padding:9px 15px 6px 15px;
 	-webkit-border-radius:20px;
 	-moz-border-radius:20px;
 	border-radius:10px;
@@ -279,18 +279,14 @@ form .fieldset .field textarea:focus{border-color:#616161;}
 .music-player-banner .text-wrapper p{font-size:26px;line-height:30px;text-transform:uppercase;
 	font-family:'NeoSans-BoldItalic', Arial, sans-serif;}
 	
-.processor-banner{position:relative;background-color:#1D555E;}
-.processor-banner .text-wrapper{position:absolute;top:20%;right:50px;text-align:right;width:600px;}
-.processor-banner .text-wrapper h2{font-size:140px;line-height:140px;margin-bottom:20px;color:#fff;
-	font-family:'NeoSans-UltraItalic', Arial, sans-serif;text-shadow: 4px 9px 10px rgba(50, 50, 50, 1);}
-.processor-banner .text-wrapper h2 span{font-size:100px;}
-.processor-banner .text-wrapper h3{text-transform:uppercase;font-size:50px;line-height:50px;margin-bottom:20px;color:#13212E;
-	font-family:'NeoSans-UltraItalic', Arial, sans-serif;}
-.processor-banner .text-wrapper p{font-size:26px;line-height:30px;font-family:'NeoSans-BoldItalic', Arial, sans-serif;}
+.processor-banner{position:relative;background-color:#07e2f8;}
+.processor-banner img{max-width:1600px;margin:0 auto;}
+.processor-banner .text-wrapper{position:absolute;top:30%;right:50px;text-align:right;}
+.processor-banner .text-wrapper h2{font-family:'NeoSans-UltraItalic', Arial, sans-serif;font-size:60px;text-transform:uppercase;margin-bottom:30px;
+	color:#fff;}
+.processor-banner .text-wrapper p{font-family:'NeoSans-Light', Arial, sans-serif;font-size:40px;font-style:italic;line-height:48px;color:#fff;
+	text-transform:uppercase;}
 .processor-banner .text-wrapper .cta{right:0;}
-.processor-banner .form-wrapper{position:absolute;top:10%;right:10%;width:430px;}
-.processor-banner .form-wrapper h2{text-transform:uppercase;font-size:50px;line-height:50px;margin-bottom:20px;color:#fff;
-	font-family:'NeoSans-UltraItalic', Arial, sans-serif;}
 
 .camera-banner{position:relative;background-color:#5ABA47;}
 .camera-banner .text-wrapper{position:absolute;bottom:25px;text-align:center;width:100%;}
@@ -298,13 +294,14 @@ form .fieldset .field textarea:focus{border-color:#616161;}
 	font-family:'NeoSans-UltraItalic', Arial, sans-serif;}
 .camera-banner .text-wrapper p{font-size:26px;line-height:30px;font-family:'NeoSans-BoldItalic', Arial, sans-serif;}
 
-.colours-banner{position:relative;background-color:#00A1B1;}
-.colours-banner .text-wrapper{position:absolute;top:4%;text-align:left;width:auto;}
-.colours-banner .text-wrapper h2{font-size:120px;line-height:120px;margin:0 0 20px 50px;color:#fff;
-	font-family:'NeoSans-UltraItalic', Arial, sans-serif;}
-.colours-banner .text-wrapper p{font-size:40px;line-height:46px;font-family:'NeoSans-BoldItalic', Arial, sans-serif;color:#000;
-	margin:0 0 20px 50px;text-transform:uppercase;}
-.colours-banner .text-wrapper .cta{left:50px;}
+.colours-banner{position:relative;background-color:#1fc1b0;}
+.colours-banner img{margin:0 auto;}
+.colours-banner .text-wrapper{position:absolute;top:30%;right:50px;text-align:right;}
+.colours-banner .text-wrapper h2{font-family:'NeoSans-UltraItalic', Arial, sans-serif;font-size:60px;text-transform:uppercase;margin-bottom:30px;
+	color:#e53c3c;}
+.colours-banner .text-wrapper p{font-family:'NeoSans-Light', Arial, sans-serif;font-size:40px;font-style:italic;line-height:48px;color:#000;
+	text-transform:uppercase;}
+.colours-banner .text-wrapper .cta{right:0;}
 
 .order-banner{position:relative;background:url(../images/order-bg.png) right top no-repeat #000;height:100%;}
 .order-banner .phone{height:auto;width:18%;position:absolute;left:50px;top:12%;}
