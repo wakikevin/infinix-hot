@@ -231,18 +231,19 @@ form .fieldset .field textarea:focus{border-color:#616161;}
 /*----- BANNERS -----*/
 #banner{position:relative;background-color:#000;}
 #banner img{max-width:1600px;margin:0 auto;}
-#banner .text-wrapper{position:absolute;bottom:25%;right:50px;text-align:right; width:710px;}
+#banner .text-wrapper{position:absolute;bottom:25%;right:50px;text-align:right;}
 #banner .text-wrapper h2{font-family:'NeoSans-UltraItalic', Arial, sans-serif;font-size:60px;text-transform:uppercase;margin-bottom:20px;
 	background:url(../images/hot-logo.png) right bottom no-repeat;padding:62px 180px 0 0;line-height:50px;}
 #banner .text-wrapper p{font-family:'NeoSans-Light', Arial, sans-serif;font-size:40px;font-style:italic;line-height:48px;color:#fff;}
 #banner .text-wrapper .cta{right:0;}
 
-.shots-banner{position:relative;background-color:#D86304;}
-.shots-banner img{height:auto;width:45%;}
-.shots-banner .text-wrapper{position:absolute;top:25%;right:50px;text-align:right;}
-.shots-banner .text-wrapper h2{text-transform:uppercase;font-size:88px;line-height:90px;}
-.shots-banner .text-wrapper p{font-size:44px;line-height:60px;}
-.shots-banner .text-wrapper .cta{right:0;}
+.shots-banner{position:relative;background:url(../images/epic-shots-bg.png) 80% top #c1bfbf no-repeat;height:580px;overflow:hidden;}
+.shots-banner img{width:436px;float:right;margin:40px 100px 0 0;}
+.shots-banner .text-wrapper{position:absolute;top:25%;left:50px;width:600px;}
+.shots-banner .text-wrapper h2{font-family:'NeoSans-UltraItalic', Arial, sans-serif;font-size:60px;text-transform:uppercase;margin-bottom:30px;
+	color:#d12844;}
+.shots-banner .text-wrapper p{font-family:'NeoSans-Light', Arial, sans-serif;font-size:36px;font-style:italic;line-height:48px;color:#6b6b6b;}
+.shots-banner .text-wrapper .cta{left:0;}
 
 .music-banner{position:relative;background:url(../images/music-bg.png) right top no-repeat #1FC1B0;height:70%;}
 .music-banner img{height:auto;width:50%;position:absolute;left:0;bottom:-120px;z-index:99;}
