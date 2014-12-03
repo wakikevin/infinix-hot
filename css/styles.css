@@ -234,7 +234,8 @@ form .fieldset .field textarea:focus{border-color:#616161;}
 #banner .text-wrapper{position:absolute;bottom:25%;right:50px;text-align:right;}
 #banner .text-wrapper h2{font-family:'NeoSans-UltraItalic', Arial, sans-serif;font-size:60px;text-transform:uppercase;margin-bottom:20px;
 	background:url(../images/hot-logo.png) right bottom no-repeat;padding:62px 180px 0 0;line-height:50px;}
-#banner .text-wrapper p{font-family:'NeoSans-Light', Arial, sans-serif;font-size:40px;font-style:italic;line-height:48px;color:#fff;}
+#banner .text-wrapper p{font-family:'NeoSans-Light', Arial, sans-serif;font-size:40px;font-style:italic;line-height:48px;color:#fff;
+	text-transform:uppercase;}
 #banner .text-wrapper .cta{right:0;}
 
 .shots-banner{position:relative;background:url(../images/epic-shots-bg.png) 80% top #c1bfbf no-repeat;height:580px;overflow:hidden;}
@@ -242,7 +243,8 @@ form .fieldset .field textarea:focus{border-color:#616161;}
 .shots-banner .text-wrapper{position:absolute;top:30%;left:50px;width:600px;}
 .shots-banner .text-wrapper h2{font-family:'NeoSans-UltraItalic', Arial, sans-serif;font-size:60px;text-transform:uppercase;margin-bottom:30px;
 	color:#d12844;}
-.shots-banner .text-wrapper p{font-family:'NeoSans-Light', Arial, sans-serif;font-size:36px;font-style:italic;line-height:48px;color:#6b6b6b;}
+.shots-banner .text-wrapper p{font-family:'NeoSans-Light', Arial, sans-serif;font-size:36px;font-style:italic;line-height:48px;color:#6b6b6b;
+	text-transform:uppercase;}
 .shots-banner .text-wrapper .cta{left:0;}
 
 .music-banner{position:relative;background-color:#1fc1b0;}
@@ -250,14 +252,17 @@ form .fieldset .field textarea:focus{border-color:#616161;}
 .music-banner .text-wrapper{position:absolute;top:30%;right:50px;text-align:right;}
 .music-banner .text-wrapper h2{font-family:'NeoSans-UltraItalic', Arial, sans-serif;font-size:60px;text-transform:uppercase;margin-bottom:30px;
 	color:#221001;}
-.music-banner .text-wrapper p{font-family:'NeoSans-Light', Arial, sans-serif;font-size:40px;font-style:italic;line-height:48px;color:#fff;}
+.music-banner .text-wrapper p{font-family:'NeoSans-Light', Arial, sans-serif;font-size:40px;font-style:italic;line-height:48px;color:#fff;
+	text-transform:uppercase;}
 .music-banner .text-wrapper .cta{right:0;}
 
-.space-banner{position:relative;background-color:#D20B2D;padding-top:164px;}
-.space-banner img{height:auto;width:40%;float:right;margin-right:50px;}
-.space-banner .text-wrapper{position:absolute;bottom:25%;left:50px;width:600px;}
-.space-banner .text-wrapper h2{text-transform:uppercase;font-size:88px;line-height:90px; margin-bottom:15px;}
-.space-banner .text-wrapper p{font-size:22px;line-height:30px;text-transform:uppercase;font-family:Arial, sans-serif;font-weight:bold;}
+.space-banner{position:relative;background-color:#ea002c;}
+.space-banner img{max-width:1600px;margin:0 auto;}
+.space-banner .text-wrapper{position:absolute;top:30%;left:50px;width:600px;}
+.space-banner .text-wrapper h2{font-family:'NeoSans-UltraItalic', Arial, sans-serif;font-size:60px;text-transform:uppercase;margin-bottom:30px;
+	color:#fff;}
+.space-banner .text-wrapper p{font-family:'NeoSans-Light', Arial, sans-serif;font-size:36px;font-style:italic;line-height:48px;color:#fff;
+	text-transform:uppercase;}
 .space-banner .text-wrapper .cta{left:0;}
 
 .power-banner{position:relative;background-color:#31B7DD;}
