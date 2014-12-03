@@ -322,6 +322,26 @@ form .fieldset .field textarea:focus{border-color:#616161;}
 .order-banner .social-wrapper li:first-child{margin-left:0;}
 .order-banner .social-wrapper li a{display:block;width:47px;}
 
+.notify-banner{position:relative;background-color:#1fc1b0;height:650px;background:url(../images/music-banner.jpg) center top no-repeat #1fc1b0;
+ -webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size:cover;
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../images/music-banner', sizingMethod='scale');
+	-ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../images/music-banner', sizingMethod='scale')";
+}
+.notify-banner .text-wrapper{position:absolute;top:20%;right:50px;text-align:right;width:600px;}
+.notify-banner .text-wrapper h2{font-size:140px;line-height:140px;margin-bottom:20px;color:#fff;
+	font-family:'NeoSans-UltraItalic', Arial, sans-serif;text-shadow: 4px 9px 10px rgba(50, 50, 50, 1);}
+.notify-banner .text-wrapper h2 span{font-size:100px;}
+.notify-banner .text-wrapper h3{text-transform:uppercase;font-size:50px;line-height:50px;margin-bottom:20px;color:#13212E;
+	font-family:'NeoSans-UltraItalic', Arial, sans-serif;}
+.notify-banner .text-wrapper p{font-size:26px;line-height:30px;font-family:'NeoSans-BoldItalic', Arial, sans-serif;}
+.notify-banner .text-wrapper .cta{right:0;}
+.notify-banner .form-wrapper{position:absolute;top:10%;right:10%;width:430px;}
+.notify-banner .form-wrapper h2{text-transform:uppercase;font-size:50px;line-height:50px;margin-bottom:20px;color:#fff;
+	font-family:'NeoSans-UltraItalic', Arial, sans-serif;}
+
 /*----- Banner Sep -----*/
 .banner-sep{height:99px;background:url(../images/yellow-bg.png) center top repeat-x #FFB40F;}
 .banner-sep h2{font-family:'NeoSans-Light', Arial, sans-serif;text-align:center;font-weight:bold;font-size:40px;text-transform:uppercase;line-height:99px;}
@@ -365,12 +385,12 @@ form .fieldset .field textarea:focus{border-color:#616161;}
 
 /*---------- FOOTER ----------*/
 #footer{background-color:#fff;padding:30px 50px;}
-#footer .social{font-size:0;text-align:center;}
+#footer .social{font-size:0;text-align:center;float:left;}
 #footer .social li{margin:0 8px;display:inline-block;*display:inline;zoom:1;vertical-align:top;}
-#footer .social li a{display:block;width:24px;
+#footer .social li a{display:block;width:38px;
 	zoom: 1;
-	filter: alpha(opacity=50);
-	opacity: 0.5;
+	filter: alpha(opacity=70);
+	opacity: 0.7;
 }
 
 #footer .social li a:hover{
@@ -378,5 +398,5 @@ form .fieldset .field textarea:focus{border-color:#616161;}
 	opacity: 1;
 }
 
-#footer .copyright{font-size:18px;font-family:Arial, sans-serif;text-align:center;font-weight:bold;color:#848484;text-transform:uppercase;
-	margin-top:25px;}
+#footer .copyright{font-size:18px;font-family:'NeoSans-Light', Arial, sans-serif;text-align:right;font-weight:bold;color:#848484;
+	text-transform:uppercase;margin-top:14px;float:right;}
