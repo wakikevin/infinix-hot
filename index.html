@@ -5,9 +5,11 @@
 <title>Infinix HOT</title>
 <link href="css/styles.css" rel="stylesheet" type="text/css">
 <script type="text/javascript" src="js/jquery-1.10.2.min.js"></script>
+<script type="text/javascript" src="js/jquery.scrollto.js"></script>
 <script type="text/javascript" src="js/waypoints.min.js"></script>
 <script type="text/javascript" src="js/waypoints-sticky.min.js"></script>
 <script type="text/javascript" src="js/common.js"></script>
+<script type="text/javascript" src="js/scroller.js"></script>
 </head>
 
 <body>
@@ -41,8 +43,21 @@
   </div>
   <!-- top-wrapper end -->
   
+  <!-- scroller -->
+  <div class="scroller">
+  	<ul>
+    	<li><a href="#home" class="active">Home</a></li>
+      <li><a href="#shots">Shots</a></li>
+      <li><a href="#music">Music</a></li>
+      <li><a href="#space">Space</a></li>
+      <li><a href="#colours">Colours</a></li>
+      <li><a href="#processor">Processor</a></li>
+    </ul>
+  </div>
+  <!-- scroller end -->
+  
   <!-- banner -->
-  <div id="banner">
+  <div id="home" class="home-banner">
   	<img src="images/home-banner.jpg" alt="Home Banner" />
     <div class="text-wrapper">
     	<h2>The New Infinix</h2>
@@ -56,7 +71,7 @@
   <!-- banner end -->
   
   <!-- shots-banner -->
-  <div class="shots-banner">
+  <div id="shots" class="shots-banner">
   	<img src="images/infinix-mobile-1.png" alt="More Epic Shots" />
     <div class="text-wrapper">
     	<h2>More Epic Shots</h2>
@@ -70,7 +85,7 @@
   <!-- shots-banner end -->
   
   <!-- music-banner -->
-  <div class="music-banner">
+  <div id="music" class="music-banner">
 		<img src="images/music-banner.jpg" alt="More Music" />
     <div class="text-wrapper">
     	<h2>Get More Music</h2>
@@ -82,7 +97,7 @@
   <!-- music-banner end -->
   
   <!-- space-banner -->
-  <div class="space-banner clearfloat">
+  <div id="space" class="space-banner clearfloat">
   	<img src="images/space-banner.jpg" alt="More Space" />
     <div class="text-wrapper">
     	<h2>More Storage</h2>
@@ -96,7 +111,7 @@
   <!-- space-banner end -->
   
   <!-- colours-banner -->
-  <div class="colours-banner">
+  <div id="colours" class="colours-banner">
 		<img src="images/colours-banner.jpg" alt="Vibrant Colours" />
     <div class="text-wrapper">
     	<h2>Vibrant Colours</h2>
@@ -108,7 +123,7 @@
   <!-- colours-banner end -->
   
   <!-- processor-banner -->
-  <div class="processor-banner">
+  <div id="processor" class="processor-banner">
 		<img src="images/processor-banner.jpg" alt="Quad 4X Processor" />
     <div class="text-wrapper">
     	<h2>Quad 4x Processor</h2>

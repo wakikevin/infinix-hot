@@ -228,15 +228,28 @@ form .fieldset .field textarea{height:100px;overflow:auto;}
 form .fieldset .field input[type="text"]:focus,
 form .fieldset .field textarea:focus{border-color:#616161;}
 
+/*----- SCROLLER -----*/
+.scroller{width:20px;position:fixed;right:0;top:30%;background-color:rgba(0,0,0,0.6);z-index:99;padding:10px;
+}
+.scroller li{margin-top:15px;}
+.scroller li:first-child{margin-top:0;}
+.scroller li a{width:15px;height:15px;background-color:#fff;margin:0 auto;text-indent:-9999px;display:block;
+	border-radius:15px;
+	-moz-border-radius:15px;
+	-webkit-border-radius:15px;
+}
+.scroller li a:hover{background-color:#ccc;}
+.scroller li a.active{background-color:#b70000;}
+
 /*----- BANNERS -----*/
-#banner{position:relative;background-color:#000;}
-#banner img{max-width:1600px;margin:0 auto;}
-#banner .text-wrapper{position:absolute;bottom:25%;right:50px;text-align:right;}
-#banner .text-wrapper h2{font-family:'NeoSans-UltraItalic', Arial, sans-serif;font-size:60px;text-transform:uppercase;margin-bottom:20px;
+.home-banner{position:relative;background-color:#000;}
+.home-banner img{max-width:1600px;margin:0 auto;}
+.home-banner .text-wrapper{position:absolute;bottom:25%;right:50px;text-align:right;}
+.home-banner .text-wrapper h2{font-family:'NeoSans-UltraItalic', Arial, sans-serif;font-size:60px;text-transform:uppercase;margin-bottom:20px;
 	background:url(../images/hot-logo.png) right bottom no-repeat;padding:62px 180px 0 0;line-height:50px;}
-#banner .text-wrapper p{font-family:'NeoSans-Light', Arial, sans-serif;font-size:40px;font-style:italic;line-height:48px;color:#fff;
+.home-banner .text-wrapper p{font-family:'NeoSans-Light', Arial, sans-serif;font-size:40px;font-style:italic;line-height:48px;color:#fff;
 	text-transform:uppercase;}
-#banner .text-wrapper .cta{right:0;}
+.home-banner .text-wrapper .cta{right:0;}
 
 .shots-banner{position:relative;background:url(../images/epic-shots-bg.png) 80% top #c1bfbf no-repeat;height:580px;overflow:hidden;}
 .shots-banner img{width:436px;float:right;margin:40px 100px 0 0;}
