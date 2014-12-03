@@ -239,17 +239,19 @@ form .fieldset .field textarea:focus{border-color:#616161;}
 
 .shots-banner{position:relative;background:url(../images/epic-shots-bg.png) 80% top #c1bfbf no-repeat;height:580px;overflow:hidden;}
 .shots-banner img{width:436px;float:right;margin:40px 100px 0 0;}
-.shots-banner .text-wrapper{position:absolute;top:25%;left:50px;width:600px;}
+.shots-banner .text-wrapper{position:absolute;top:30%;left:50px;width:600px;}
 .shots-banner .text-wrapper h2{font-family:'NeoSans-UltraItalic', Arial, sans-serif;font-size:60px;text-transform:uppercase;margin-bottom:30px;
 	color:#d12844;}
 .shots-banner .text-wrapper p{font-family:'NeoSans-Light', Arial, sans-serif;font-size:36px;font-style:italic;line-height:48px;color:#6b6b6b;}
 .shots-banner .text-wrapper .cta{left:0;}
 
-.music-banner{position:relative;background:url(../images/music-bg.png) right top no-repeat #1FC1B0;height:70%;}
-.music-banner img{height:auto;width:50%;position:absolute;left:0;bottom:-120px;z-index:99;}
-.music-banner .text-wrapper{position:absolute;top:30%;right:50px;text-align:right;width:600px;}
-.music-banner .text-wrapper h2{text-transform:uppercase;font-size:88px;line-height:90px;}
-.music-banner .text-wrapper .cta{right:0; margin-top:20px;}
+.music-banner{position:relative;background-color:#1fc1b0;}
+.music-banner img{max-width:1352px;margin:0 auto;}
+.music-banner .text-wrapper{position:absolute;top:30%;right:50px;text-align:right;}
+.music-banner .text-wrapper h2{font-family:'NeoSans-UltraItalic', Arial, sans-serif;font-size:60px;text-transform:uppercase;margin-bottom:30px;
+	color:#221001;}
+.music-banner .text-wrapper p{font-family:'NeoSans-Light', Arial, sans-serif;font-size:40px;font-style:italic;line-height:48px;color:#fff;}
+.music-banner .text-wrapper .cta{right:0;}
 
 .space-banner{position:relative;background-color:#D20B2D;padding-top:164px;}
 .space-banner img{height:auto;width:40%;float:right;margin-right:50px;}
