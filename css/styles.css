@@ -174,13 +174,13 @@ img{max-width:100%;width:100%;padding:0;margin:0;border:none;display:block;}
 .btn:hover{color:#fff;background-color:#444;}
 
 /*---------- BUTTON CTA ----------*/
-.cta{display:block;position:absolute;height:48px;line-height:48px;font-family:'NeoSans-Ultra', Arial, sans-serif;color:#000;
-	text-transform:uppercase;font-size:32px;background-color:#fff;padding:6px 20px;
+.cta{display:block;position:absolute;height:32px;font-family:'NeoSans-BoldItalic', Arial, sans-serif;color:#3b5c88;
+	text-transform:uppercase;font-size:28px;background-color:#fff;padding:9px 15px;
 	-webkit-border-radius:20px;
 	-moz-border-radius:20px;
-	border-radius:20px;
+	border-radius:10px;
 }
-.cta span{display:block;background:url(../images/konga.png) right bottom no-repeat;padding-right:164px;cursor:pointer;height:48px;}
+.cta span{display:block;background:url(../images/konga.png) right center no-repeat;padding-right:140px;cursor:pointer;height:32px;}
 .cta:hover{color:#444;}
 
 /*---------- LAYOUT ----------*/
@@ -203,12 +203,13 @@ body{font-family:'NeoSans-Light', Arial, sans-serif;font-size:17px;color:#fff;ba
 #main-menu > li a:hover{color:#b70000;}
 
 /*----- SEARCH -----*/
-.search-wrapper{display:inline-block;*display:inline;zoom:1;vertical-align:top;height:40px;margin:4px 0 0 10px;
-	border-bottom:1px solid #EAEAEA;}
-.search-wrapper .textbox{background-color:#fff;font-family:Arial, sans-serif;font-size:16px;font-style:italic;
-	color:#ccc;line-height:26px;padding:0;display:block;float:left;width:120px;border:0 none;margin:4px 0 0 0;}
+.search-wrapper{display:inline-block;*display:inline;zoom:1;vertical-align:top;height:40px;margin:4px 0 0 10px;background-color:#ccc;
+	border-radius:4px;
+}
+.search-wrapper .textbox{background-color:#ccc;font-family:Arial, sans-serif;font-size:16px;font-style:italic;
+	color:#fff;line-height:26px;padding:0px 5px 0px 10px;display:block;float:left;width:120px;border:0 none;margin:7px 0 0 7px;}
 .search-wrapper .btn-search{display:block;width:30px;height:30px;border:0 none;float:left;padding:0;margin:0;cursor:pointer;
-	background-image:url(../images/search.png);background-position:right 7px;background-repeat:no-repeat;background-color:transparent;
+	background-image:url(../images/search.png);background-position:center 12px;background-repeat:no-repeat;background-color:transparent;
 }
 
 /*----- FORM -----*/
@@ -228,9 +229,12 @@ form .fieldset .field input[type="text"]:focus,
 form .fieldset .field textarea:focus{border-color:#616161;}
 
 /*----- BANNERS -----*/
-#banner{position:relative;}
-#banner .text-wrapper{position:absolute;bottom:25%;right:50px;text-align:right; width:650px;}
-#banner .text-wrapper p{font-family:'NeoSans-BoldItalic', Arial, sans-serif;font-size:40px;line-height:48px;color:#fff;}
+#banner{position:relative;background-color:#000;}
+#banner img{max-width:1600px;margin:0 auto;}
+#banner .text-wrapper{position:absolute;bottom:25%;right:50px;text-align:right; width:710px;}
+#banner .text-wrapper h2{font-family:'NeoSans-UltraItalic', Arial, sans-serif;font-size:60px;text-transform:uppercase;margin-bottom:20px;
+	background:url(../images/hot-logo.png) right bottom no-repeat;padding:62px 180px 0 0;line-height:50px;}
+#banner .text-wrapper p{font-family:'NeoSans-Light', Arial, sans-serif;font-size:40px;font-style:italic;line-height:48px;color:#fff;}
 #banner .text-wrapper .cta{right:0;}
 
 .shots-banner{position:relative;background-color:#D86304;}
